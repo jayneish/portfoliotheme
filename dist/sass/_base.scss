@@ -1,0 +1,241 @@
+body{
+    margin:0 auto;
+    width:100%;
+    height:100%;
+    padding:0px;
+    overflow-x:hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+.clear{
+    clear:both;
+}
+
+.space{
+    width:100vh;
+    height:10vh;
+}
+
+/* Index Page SASS */
+.whiteBar{
+    height:10px;
+    width:100%;
+    background-color:#FFFFFF;
+}
+
+.pobutt{
+    color:white;
+    border:solid 1px white;
+    background-color:rgba(0, 0, 0, 0.5);
+    font-weight:bold;
+    font-size:2.2vh;
+    margin-top:10%;
+    width:50vh;
+    height:7vh;
+    opacity:0.5;
+    transition:0.3s ease-in-out;
+}
+
+.pobutt:hover{
+    cursor:pointer;
+    opacity:1;
+    transform:scale(0.98);
+}
+
+/* Website Design Page SASS */
+.webum{
+    background-color:#336699;
+}
+
+/* Photography Page + Illustration Page SASS */
+.photog{
+    background-color:#336699;
+}
+
+.projTitl{
+    display:block;
+    margin:0 !important;
+    padding:1.1vh 29vh 0 20vh;
+    background:rgba(255, 255, 255, 0.5);
+    height:88.9vh;
+    width:100vh;
+    position:relative;
+    left:0vh;
+    top:5vh;
+    
+    .IMGSEC{
+        float:left;
+        
+        .p1{
+            width:87%;
+            display:block;
+        }
+        
+        .p2{
+            width:43%;
+            margin:1% 0.6% 0 0;
+        }
+    }
+    
+    .IMGSEC2{
+        float:left;
+        position:relative;
+        left:5%;
+        
+        .stration{
+            width:82%;
+            display:block;
+        }
+        
+        .stration2{
+            width:40.5%;
+            margin:1% 0.7% 0 0;
+        }
+    }
+    
+    .textSEC{
+        float:right;
+        background-color:#F4F4F4;
+        width:40%;
+        height:98.6%;
+        margin:-88.1vh -28% 0 0;
+        
+        .summarypro{
+            width:60%;
+            margin:8% 0 0 19%;
+            font-size:2vh;
+        }
+        
+        .summaryheadpro{
+            width:60%;
+            margin:19% 0 0 19%;
+            font-size:3vh;
+        }
+    }
+}
+
+.projectPageMenu{
+    display:block;
+    margin:0 auto;
+    
+    .pPM{
+            width:15%;
+            height:100vh;
+            background-color:#000000;
+            opacity:0.94;
+            position:fixed;
+            float:right;
+            top:0;
+            right:0;
+            z-index:2;
+    }
+}
+
+.pram{
+    font-size:9vh;
+    color:white;
+    opacity:1;
+    position:absolute;
+    top:5%;
+    right:35%;
+}
+
+.pram:hover{
+    cursor:pointer;
+}
+
+.plro{
+    display:none;
+    font-size:9vh;
+    color:white;
+    opacity:1;
+    position:absolute;
+    top:5%;
+    right:26%;
+}
+
+.plro:hover{
+    cursor:pointer;
+}
+
+/* About Me Page SASS */
+.aboum{
+    background-color:#BDD4E7;
+}
+
+.projTitl2{
+    margin:0 !important;
+    padding:1.1vh 29vh 0 20vh;
+    background:rgba(0, 0, 0, 0.5);
+    height:88.9vh;
+    width:100vh;
+    position:relative;
+    left:0vh;
+    top:5vh;
+
+    .textSEC2{
+        float:right;
+        background-color:#F4F4F4;
+        width:80%;
+        height:98.6%;
+        margin:0 -28% 0 0;
+        
+        .summaryabou{
+            width:60%;
+            margin:5% 0 0 19%;
+            font-size:2vh;
+        }
+        
+        .summaryheadabou{
+            width:60%;
+            margin:19% 0 0 19%;
+            font-size:3vh;
+        }
+    }
+    
+     .textSEC3{
+        float:right;
+        background-color:#F4F4F4;
+        width:147%;
+        height:98.6%;
+        margin:0 -28% 0 0;
+        
+        .summary2{
+            float:right;
+            position:absolute;
+            float:right;
+            z-index:1;
+            width:20%;
+            margin:6% 0 0 65%;
+            
+            h2{
+                font-size:3vh;
+            }
+            
+            p{
+                font-size:2vh;
+            }
+        }
+    }
+    
+    .textSEC4{
+        float:right;
+        background-color:#F4F4F4;
+        width:70%;
+        height:98.6%;
+        margin:0 -28% 0 0;
+        
+        .summary4{
+            width:60%;
+            margin:19% 0 0 19%;
+            
+            h2{
+                font-size:3vh;
+            }
+            
+            p{
+                font-size:2vh;
+            }
+        }
+    }
+}

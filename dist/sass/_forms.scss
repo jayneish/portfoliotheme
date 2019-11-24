@@ -1,0 +1,162 @@
+.social{
+    font-size:5vh;
+    display:inline-block;
+    margin:0 8% 0 0;
+}
+
+/* Index Page - Footer SASS */
+.bottom{
+    background-color:#3b3b3b;
+
+    .contact{
+        display:block;
+        width:100%;
+        margin:0 auto;
+        padding:0;
+        
+        .conSect{
+            height:75vh;
+            width:70vh;
+            
+            .contaOverlay{
+                height:75vh;
+                width:70vh;
+                background-color:rgba(0, 0, 0, 0.7);
+                
+                #conText{
+                    position:relative;
+                    left:10%;
+                    padding-top:22%;
+                    
+                    h1{
+                        color:white;
+                        font-size:6vh;
+                        width:50vh;
+                    }
+                    
+                    p{
+                        color:white;
+                        width:50vh;
+                        height:20vh;
+                        font-size:2vh;
+                    }
+                }
+            }
+        }
+    
+        .conRight{
+            position:absolute;
+            right:0;
+            z-index:1;
+        }
+    }
+}
+
+.contForm{
+    color:#ffffff;
+    padding:8% 0 4% 6%;
+    float:left;
+    font-size:2vh;
+
+    #fn{
+        display:inline-block;
+    }
+    
+    #sn{
+        display:inline-block;
+        position:relative;
+        margin-left:3vh;
+    }
+    
+    .inp{
+        display:block;
+        margin:3vh 0 0 0;
+    }
+        
+    .ut{
+        width:30.2vw;
+        height:3vh;
+        border-radius:7px;
+        margin-top:7px;
+    }
+    
+    .name{
+        width:28vh !important;
+    }
+    
+    #messold{
+        width:60vh;
+        height:10vh;
+        border-radius:7px;
+        margin-top:7px;
+    }
+    
+    .buttsen{
+        font-size:2vh;
+        width:100%;
+        height:4vh;
+        border-radius:7px;
+        margin-top:2vh;
+        transition:0.3s ease-in-out;
+    }
+    
+    .buttsen:hover{
+        cursor:pointer;
+        transform:scale(0.98);
+    }
+}
+
+/* About Me Page Contact Form */
+.contForm2{
+    color:#ffffff;
+    margin:10% 0 4% -10%;
+    font-size:2vh;
+    float:left;
+
+    #fn{
+        display:inline-block;
+    }
+    
+    #sn{
+        display:inline-block;
+        position:relative;
+        margin-left:20px;
+    }
+    
+    .inp{
+        display:block;
+        margin:3vh 0 0 0;
+    }
+        
+    .ut2{
+        width:24.9vw;
+        height:2.75vh;
+        border-radius:7px;
+        margin-top:7px;
+    }
+    
+    .name2{
+        width:23vh !important;
+    }
+    
+    #messold2{
+        width:50vh;
+        height:20vh;
+        border-radius:7px;
+        margin-top:7px;
+    }
+    
+    .buttsen2{
+        font-size:2vh;
+        width:100%;
+        height:4vh;
+        border-radius:7px;
+        margin-top:2vh;
+        transition:0.3s ease-in-out;
+    }
+    
+    .buttsen2:hover{
+        cursor:pointer;
+        transform:scale(0.98);
+    }
+}

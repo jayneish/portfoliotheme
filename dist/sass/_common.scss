@@ -1,0 +1,253 @@
+/* Index Page SASS */
+#splsh{
+    display:block;
+    margin:0 auto;
+    
+    .splashmenu{
+            width:44%;
+            height:100vh;
+            background-color:#000000;
+            opacity:0.7;
+            position:relative;
+            float:right;
+            top:0;
+            right:0;
+            
+            #intro{
+                color:white;
+                opacity:1;
+                margin:25vh 0 0 9vh;
+                
+                h1{
+                    position:relative;
+                    margin-top:0;
+                    margin-bottom:0;
+                    font-size:6vh;
+                }
+                
+                h2{
+                    position:relative;
+                    margin-top:0;
+                    margin-bottom:0;
+                    font-size:5vh;
+                }
+                
+                h3{
+                    position:relative;
+                    margin-top:15vh;
+                    font-size:3.5vh;
+                }
+                
+                p{
+                    font-size:2.5vh;
+                }
+            }
+    }
+}
+
+.ham{
+    font-size:8vh;
+    color:white;
+    opacity:1;
+    position:absolute;
+    top:5%;
+    right:10%;
+}
+
+.ham:hover{
+    cursor:pointer;
+}
+
+.clro{
+    display: none;
+    font-size:8vh;
+    color:white;
+    opacity:1;
+    position:absolute;
+    top:5%;
+    right:10%;
+}
+
+.clro:hover{
+    cursor:pointer;
+}
+
+/* Index Page Project Preview SASS */
+#splpro{
+    background-color:#3b3b3b;
+    
+    .projects{
+        display:block;
+        width:100%;
+        margin:0 auto;
+        padding:0;
+        
+        .projSect{
+            height:75vh;
+            width:100vh;
+            
+            .projOverlay{
+                height:75vh;
+                width:73vh;
+                background-color:rgba(0, 0, 0, 0.7);
+                
+                .text{
+                    position:relative;
+                    left:10%;
+                    padding-top:22%;
+                    padding-bottom:4%;
+                    
+                    h1{
+                        color:white;
+                        font-size:5vh;
+                    }
+                    
+                    p{
+                        color:white;
+                        width:50vh;
+                        height:40vh;
+                        font-size:2.2vh;
+                    }
+                }
+            }
+        }
+        
+        .left{
+            position:absolute;
+            z-index:1;
+            float:left;
+        }
+        
+        .right{
+            position:absolute;
+            right:0;
+            z-index:1;
+            float:right;
+        }
+        
+        .projimg{
+            position:relative;
+            height:75vh;
+            width:63vw;
+            margin-top:-75vh;
+        }
+        
+        .pileft{
+            float:left;
+        }
+        
+        .piright{
+            float:right;
+        }
+    }
+}
+
+/* Group of projects on second half of project page SASS */
+.display{
+    height:100vh;
+    width:100%;
+    display:block;
+    overflow: auto;
+    margin-top:30vh;
+    padding:1%;
+    background-color:rgba(255, 255, 255, 0.5);
+}
+
+.photoposts{
+    width:80%;
+    background-color:rgba(255, 255, 255, 0.75);
+    border-radius:10px;
+    padding:0 0 2% 0;
+    
+    .phototitle{
+        margin:0 auto;
+        padding: 2% 0 2% 3%;
+        font-size: 3.5vh;
+    }
+}
+
+.webposts{
+    width: 79vw;
+    height: 30vh;
+    padding: 2%;
+    margin-bottom: 6%;
+    
+    .thumbnail{
+        float:left;
+        
+        .webphoto{
+            width: 30.9vw;
+            height: auto;
+        }
+    }
+    
+    .webpcontent{
+        float:right;
+        background-color: white;
+        width: 42.5vw;
+        height: 30vh;
+        padding: 3.47%;
+        
+        .webtitle{
+            font-size:3vh;
+            margin:-2% 0 0 0;
+        }
+        
+        p{
+            font-size:2vh;
+        }
+    }
+}
+
+/* Images in photography and illustration posts */
+.popup-gallery{
+    p{
+        width:72vw;
+        margin: -1vh 0 0 5vh;
+    }
+    
+    .alignnone{
+        width:15vw;
+        height:auto;
+        margin: 4vh 5vh 2vh 0;
+        box-shadow: 10px 10px 5px grey;
+    }
+}
+
+/* About Me page graphics */
+.graph{
+    z-index:0;
+    float:left;
+    width:100%;
+    margin:-6% 0 0 0;
+}
+
+.me{
+    z-index:0;
+    float:left;
+    height:98.6%;
+    width:auto;
+    margin:0 0 0 -20%;
+}
+
+.unknown{
+    width:35vw;
+    margin:5% 0 0 5%;
+}
+
+.projarrow{
+    width:35vw;
+    margin:25% 0 0 -38%;
+}
+
+.homearrow{
+    width:35vw;
+    margin:0;
+    -webkit-filter: invert(100%);
+}
+
+.git{
+    height:60vh;
+    width:auto;
+    margin:-20% 0 0 0;
+}
